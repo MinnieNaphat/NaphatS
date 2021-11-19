@@ -6,22 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Music">
         <meta name="author" content="Minnie's Inc">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+           <link rel="stylesheet" href="com11style.css">
 
     </head>
     <body>
         <!--This is the visible part of my web page-->
-        <h1>I love listening to music</h1>
+        <h1>I love listening to music<span class="material-icons-outlined">library_music</span></h1>
+
         <main>
-            <p>Click here to view some more song <a href="#">more songs</a>
+            <p>Click here to view some more song <a href="#">more songs</a><br>
                 <a href="#"><img src="notes.jpg" alt="musicnotes"></a>
-                <p>Cute love song</p>
+                <p>Cute love song<span class="material-icons-outlined">favorite</span></p>
                 <ul>
                     <li>Isn't she lovely</li>
                     <li>I want you back</li>
                     <li>You belong with me</li>
                     <li>I'm yours</li>
                 </ul>
-                <p>Sad song</p>
+                <p>Sad song<span class="material-icons-outlined">sentiment_dissatisfied</span></p>
                 <ol>
                     <li>all the kids are depressed</li>
                     <li>Sad forever</li>
@@ -34,15 +38,15 @@
             <label for="songname">What is the last song you listen to?</label><br>
             <input types="text" placeholder="Enter song name" id="lastsongname" name="Lastsongyoulis"><br>
            <label for="like">Do you like music<br>
-        <input type="radio" id="like" name="like">I like music</label><br>
-        <input type="radio" id="dontlike" name="dontlike">I don't like music</label><br>
+            <span class="material-icons-outlined">thumb_up</span><input type="radio" id="like" name="like">I like music</label><br>
+            <span class="material-icons-outlined">thumb_down</span><input type="radio" id="dontlike" name="dontlike">I don't like music</label><br>
           <label for="kind">What kind of music do you like?</label><br>
-        <input type="checkbox" id="km1" name="music genre">Jazz</label><br>
-        <input type="checkbox" id="km2" name="music genre">Classic</label><br>
-        <input type="checkbox" id="km3" name="music genre">Pop</label><br>
-        <input type="checkbox" id="km4" name="music genre">Rock</label><br>
-        <input type="checkbox" id="km5" name="music genre">Country</label><br>
-        <input type="checkbox" id="km6" name="music genre">Hip Hop</label><br>
+        <input type="checkbox" id="km1" name="music genre">Jazz<span class="material-icons-outlined">nightlife</span></label><br>
+        <input type="checkbox" id="km2" name="music genre">Classic<span class="material-icons-outlined">piano</span></label><br>
+        <input type="checkbox" id="km3" name="music genre">Pop<span class="material-icons-outlined">auto_awesome</span></label><br>
+        <input type="checkbox" id="km4" name="music genre">Rock<span class="material-icons-outlined">bolt</span></label><br>
+        <input type="checkbox" id="km5" name="music genre">Country<span class="material-icons-outlined">filter_vintage</span></label><br>
+        <input type="checkbox" id="km6" name="music genre">Hip Hop<span class="material-icons-outlined">sports_martial_arts</span></label><br>
         <button type="submit">SUBMIT</button>
             </form>
         </main>
