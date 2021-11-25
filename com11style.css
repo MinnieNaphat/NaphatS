@@ -5,3 +5,7 @@ ul {display:inline-block;
 text-align: left;}
 ol {display: inline-block;
 text-align: left;}
+table {margin-top:0px;
+    margin-bottom: 0px;
+margin-left: auto;
+margin-right: auto;}
